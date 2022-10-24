@@ -1,0 +1,18 @@
+.wrapper{
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+    flex: 1;
+    padding-top: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
